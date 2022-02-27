@@ -1,0 +1,226 @@
+/* Reset */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+/*
+--- 01 TYPOGRAPHY SYSTEM
+
+- Font sizes (px)
+10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
+
+- Font weights
+Default: 400
+Medium: 500
+Semi-bold: 600
+Bold: 700
+
+- Line heights
+Default: 1
+Small: 1.05
+Medium: 1.2
+Paragraph default: 1.6
+Large: 1.8
+
+- Letter spacing
+-0.5px
+0.75px
+
+--- 02 COLORS
+
+- Primary:
+- Tints:
+- Shades: 
+
+- Accents:
+- Greys
+
+--- 05 SHADOWS
+
+--- 06 BORDER-RADIUS
+
+--- 07 WHITESPACE
+
+- Spacing system (px)
+2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
+*/
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+body {
+  margin: 0 auto;
+  background-color: rgb(191, 204, 216);
+  width: 130rem;
+}
+
+.gba {
+  margin-top: 100px;
+  height: 72rem;
+  width: 129rem;
+  background-image: url("../img/gba.png");
+  position: relative;
+  /* background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed; */
+  /* background-size: cover; */
+  /* background-size: 180vh; */
+}
+
+.battle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 64rem;
+}
+
+.bg {
+  height: 390px;
+}
+
+.a {
+  position: absolute;
+  right: 100px;
+  top: 220px;
+}
+
+.b {
+  position: absolute;
+  right: 200px;
+  top: 250px;
+}
+
+.numpad {
+  position: absolute;
+  top: 200px;
+  left: 100px;
+}
+
+.start {
+  position: absolute;
+  bottom: 230px;
+  left: 230px;
+}
+
+.select {
+  position: absolute;
+  bottom: 160px;
+  left: 230px;
+}
+
+.lyn {
+  position: absolute;
+  height: 80px;
+  left: 560px;
+  transform: scaleX(-1);
+}
+
+.hec {
+  position: absolute;
+  height: 100px;
+  left: 550px;
+  top: 260px;
+  transform: scaleX(-1);
+}
+
+.eli {
+  position: absolute;
+  height: 100px;
+  left: 550px;
+  top: 260px;
+  transform: scaleX(-1);
+}
+
+.heca {
+  position: absolute;
+  height: 200px;
+  left: 500px;
+  top: 170px;
+  transform: scaleX(-1);
+}
+
+.elia {
+  position: absolute;
+  height: 250px;
+  left: 455px;
+  top: 195px;
+  transform: scaleX(-1);
+}
+
+.lyna {
+  position: absolute;
+  transform: scaleX(-1);
+  left: 430px;
+  top: 160px;
+  height: 300px;
+}
+
+.hecp,
+.lynp,
+.elip {
+  height: 100px;
+  width: 100px;
+}
+
+.hecp,
+.elip {
+  transform: scaleX(-1);
+}
+
+.selected {
+  border: 4px dashed #ffd43b;
+  border-radius: 10%;
+  box-shadow: 2px 2px #554d25;
+}
+
+.brigand {
+  position: absolute;
+  transform: scaleX(-1);
+  right: 540px;
+  height: 100px;
+}
+
+.hidden {
+  display: none;
+}
+
+.charwrap {
+  display: flex;
+  gap: 6rem;
+  position: absolute;
+  bottom: 180px;
+  left: 420px;
+  background-color: #254792;
+  padding: 1rem 1rem 0 1rem;
+  border-radius: 2%;
+  border: 4px solid #554d25;
+  box-shadow: 2px 2px #272414;
+}
+
+.btn:hover {
+  cursor: pointer;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+header {
+}
+
+footer {
+}
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+
+/******************************************
+/* SECTIONS
+/*******************************************/
